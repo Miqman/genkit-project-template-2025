@@ -1,0 +1,25 @@
+{
+  "name": "genkit-new-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/pg": "^8.15.4",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@genkit-ai/flow": "^0.5.17",
+    "@genkit-ai/googleai": "^1.15.1",
+    "genkit": "^1.15.1",
+    "genkitx-plugin-template": "^0.0.1-12",
+    "genkitx-plugin-template-2025": "file:../genkitx-plugin-template-2025",
+    "pg": "^8.16.3"
+  }
+}
